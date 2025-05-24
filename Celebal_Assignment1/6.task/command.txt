@@ -1,0 +1,12 @@
+ 1  clear
+    2  sudo apt update
+    3  sudo apt install git
+    4  clear
+    5  git config --global user.name "Amish929"
+    6  git config --global user.email "agarwalamish62@gmail.com"
+    7  git init\
+    8  git init
+    9  git add .
+    10 git commit -m "Updated"
+    11 git push -u origin main
+    12 history

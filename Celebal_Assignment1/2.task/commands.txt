@@ -1,0 +1,31 @@
+   16 mkdir myproject
+   17  ls
+   18  cd myproject
+   19  ls
+   20  touch file1.txt
+   21  ls
+   22  clear
+   23  ls
+   24  rm file1.txt
+   25  ls
+   26  cd ../
+   27  rm -r myproject
+   28  ls
+   29  clear
+   30  ls
+   31  mkdir myproject
+   32  ls
+   33  cd myproject
+   34  ls
+   35  touch file1.txt
+   36  ls
+   37  ls -l
+   38  rm file1.txt
+   39  ls
+   40  mkdir -p folder1/folder2
+   41  ls
+   42  cd folder1
+   43  ls
+   44  cd folder2
+   45  ls
+   46  history

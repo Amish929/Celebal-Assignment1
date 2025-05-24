@@ -1,0 +1,10 @@
+   28  cd project-dir
+   29  ls
+   30  clear
+   31  git checkout -b feature-branch
+   32  echo "New feature" > feature.txt
+   33  git add feature.txt
+   34  git commit -m "Added feature"
+   35  git status
+   36  git push origin feature-branch
+   37  history

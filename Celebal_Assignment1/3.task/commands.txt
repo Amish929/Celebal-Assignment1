@@ -1,0 +1,15 @@
+ ls
+   54  cd ~
+   55  ls -a
+   56  mv myfile.txt myproject/
+   57  ls
+   58  cd myproject
+   59  ls
+   60  mv oldname.txt newname.txt
+   61  cd ../
+   62  ls
+   63  vim amish.txt
+   64  ls
+   65  mv amish.txt amish1.txt
+   66  ls
+   67  history

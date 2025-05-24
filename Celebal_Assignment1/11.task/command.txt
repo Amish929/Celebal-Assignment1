@@ -1,0 +1,5 @@
+git status
+git log
+git diff
+git stash
+git revert ff64295b082548da5c389bb13c2966c8116305b2

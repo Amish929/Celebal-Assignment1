@@ -1,0 +1,9 @@
+git reset --soft HEAD~1         
+git reset --hard HEAD~1         
+git rm feature.txt
+git commit -m "Removed file"
+git push origin master
+git pull origin master --rebase
+git push origin master
+
+

@@ -1,0 +1,15 @@
+11  mkdir project-dir
+   12  cd project-dir
+   13  git init
+   14  echo "Hello Git" > readme.md
+   15  ls
+   16  git add readme.md
+   17  git commit -m "Initial commit"
+   18  git status
+   19  git remote add origin https://github.com/Amish929/Celebal-Assignment1.git
+   20  git status
+   21  git add .
+   22  git status
+   23  git push -u origin master
+   24  git status
+   25  history

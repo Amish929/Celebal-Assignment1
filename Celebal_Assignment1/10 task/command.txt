@@ -1,0 +1,31 @@
+ 69  clear
+   70  git checkout -b feature-branch
+   71  clear
+   72  git checkout -b new-branch
+   73  echo "This is a new feature" > feature.txt
+   74  git add feature.txt
+   75  git commit -m "Added feature.txt in new-branch"
+   76  git status
+   77  git branch
+   78  git push origin master
+   79  git push origin new-branch
+   80  git checkout master
+   81  git merge new-branch
+   82  clear
+   83  echo "This is from master" > test.txt
+   84  git add test.txt
+   85  git commit -m "Edit from master"
+   86  git checkout feature-branch
+   87  echo "This is from feature-branch" > test.txt
+   88  git add test.txt
+   89  git commit -m "Edit from feature-branch"
+   90  git checkout master
+   91  git merge feature-branch
+   92  ls
+   93  cat test.txt
+   94  vim test.txt
+   95  git add test.txt
+   96  git commit -m "Resolved merge conflict in test.txt"
+   97  cat test.txt
+   98  git push origin master
+   99  history

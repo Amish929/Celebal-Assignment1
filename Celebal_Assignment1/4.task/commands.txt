@@ -1,0 +1,6 @@
+1.sudo useradd -m student1
+2.sudo passwd student1
+3.sudo groupadd devteam
+4.sudo usermod -aG devteam student1
+5.groups student1
+6.sudo userdel -r student1

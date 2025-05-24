@@ -1,0 +1,8 @@
+ 1  clear
+    2  touch myfile.txt
+    3  ls -l myfile.txt
+    4  chmod u+x myfile.txt
+    5  chmod g+w myfile.txt
+    6  chmod o-r myfile.txt
+    7  ls -l myfile.txt
+    8  history

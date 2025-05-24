@@ -1,0 +1,10 @@
+  82  chmod 770 amish1.txt
+   83  ls -l
+   84  chmod 777 amish1.txt
+   85  ls -l
+   86  vim amish1.txt
+   87  cat amish1.txt
+   88  pwd
+   89  df -h
+   90  whoami
+   91  history
